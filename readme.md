@@ -25,7 +25,7 @@ var object = parser.parse(propertiesFileContents);
 
 ### Generate properties file from object
 
-```
+```js
 var parser = require("properties-file");
 
 var string = parser.stringify({
